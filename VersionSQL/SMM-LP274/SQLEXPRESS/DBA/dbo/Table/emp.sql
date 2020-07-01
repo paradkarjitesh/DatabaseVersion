@@ -4,6 +4,7 @@ SET ANSI_NULLS ON
 SET QUOTED_IDENTIFIER ON
 CREATE TABLE [dbo].[emp](
 	[id] [int] NULL,
-	[name] [varchar](200) NULL
+	[name] [varchar](200) NULL,
+	[lastname] [varchar](200) NULL
 ) ON [PRIMARY]
 
